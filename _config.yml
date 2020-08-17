@@ -1,16 +1,16 @@
 # Site settings
-title: Grayscale
+title: Service Analytics Evidence Base
 email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url: https://s-laugh.github.io/saeb/
+description: "To create a solution that integrates data, making it available and reusable in real-time for the purposes of planning, performance, reporting, and/or service improvement through analytics, across channels and programs."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#000000'
+  primary-dark: '#666'
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: Her Majesty the Queen in Right of Canada, as represented by the Employment and Social Development Canada
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
