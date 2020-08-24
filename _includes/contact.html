@@ -1,18 +1,29 @@
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+<section id="contact">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Dolor reprehenderit repellendus, optio labore odio at tempore debitis nisi. Quasi debitis tenetur eaque molestias non porro odio sapiente.</p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    {% for network in site.social %}
-                    <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                    </li>
-                    {% endfor %}
-                </ul>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <hr class="primary">
+                <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
             </div>
+        <div class="col-lg-2 col-lg-offset-2 text-center">
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.twitter_username }}</p>
+            </a>
         </div>
-    </section>
+        <div class="col-lg-2 col-lg-offset-1 text-center">
+            <a href="mailto:{{ site.email }}">
+            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.email }}</p>
+            </a>
+        </div>
+        <div class="col-lg-2 col-lg-offset-1 text-center">
+            <a href="https://github.com/{{ site.github_username }}">
+            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.github_username }}</p>
+            </a>
+        </div>
+
+    </div>
+</section>
